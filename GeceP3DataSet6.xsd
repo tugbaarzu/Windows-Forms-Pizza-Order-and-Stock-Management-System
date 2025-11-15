@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GeceP3DataSet6" targetNamespace="http://tempuri.org/GeceP3DataSet6.xsd" xmlns:mstns="http://tempuri.org/GeceP3DataSet6.xsd" xmlns="http://tempuri.org/GeceP3DataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="GeceP3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="GeceP3ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApplication3.Properties.Settings.GlobalReference.Default.GeceP3ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SiparislerTableAdapter" GeneratorDataComponentClassName="SiparislerTableAdapter" Name="Siparisler" UserDataComponentName="SiparislerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="GeceP3ConnectionString (Settings)" DbObjectName="GeceP3.dbo.Siparisler" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SiparisListesi, SiparisTarihi, Tutar, Iskonta, TeslimTarihi, Alındı, ParaAlınmaTarihi FROM dbo.Siparisler</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SiparisListesi" DataSetColumn="SiparisListesi" />
+              <Mapping SourceColumn="SiparisTarihi" DataSetColumn="SiparisTarihi" />
+              <Mapping SourceColumn="Tutar" DataSetColumn="Tutar" />
+              <Mapping SourceColumn="Iskonta" DataSetColumn="Iskonta" />
+              <Mapping SourceColumn="TeslimTarihi" DataSetColumn="TeslimTarihi" />
+              <Mapping SourceColumn="Alındı" DataSetColumn="Alındı" />
+              <Mapping SourceColumn="ParaAlınmaTarihi" DataSetColumn="ParaAlınmaTarihi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GeceP3DataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="GeceP3DataSet6" msprop:Generator_UserDSName="GeceP3DataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Siparisler" msprop:Generator_TableClassName="SiparislerDataTable" msprop:Generator_TableVarName="tableSiparisler" msprop:Generator_TablePropName="Siparisler" msprop:Generator_RowDeletingName="SiparislerRowDeleting" msprop:Generator_RowChangingName="SiparislerRowChanging" msprop:Generator_RowEvHandlerName="SiparislerRowChangeEventHandler" msprop:Generator_RowDeletedName="SiparislerRowDeleted" msprop:Generator_UserTableName="Siparisler" msprop:Generator_RowChangedName="SiparislerRowChanged" msprop:Generator_RowEvArgName="SiparislerRowChangeEvent" msprop:Generator_RowClassName="SiparislerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SiparisListesi" msprop:Generator_ColumnVarNameInTable="columnSiparisListesi" msprop:Generator_ColumnPropNameInRow="SiparisListesi" msprop:Generator_ColumnPropNameInTable="SiparisListesiColumn" msprop:Generator_UserColumnName="SiparisListesi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SiparisTarihi" msprop:Generator_ColumnVarNameInTable="columnSiparisTarihi" msprop:Generator_ColumnPropNameInRow="SiparisTarihi" msprop:Generator_ColumnPropNameInTable="SiparisTarihiColumn" msprop:Generator_UserColumnName="SiparisTarihi" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Tutar" msprop:Generator_ColumnVarNameInTable="columnTutar" msprop:Generator_ColumnPropNameInRow="Tutar" msprop:Generator_ColumnPropNameInTable="TutarColumn" msprop:Generator_UserColumnName="Tutar" type="xs:float" minOccurs="0" />
+              <xs:element name="Iskonta" msprop:Generator_ColumnVarNameInTable="columnIskonta" msprop:Generator_ColumnPropNameInRow="Iskonta" msprop:Generator_ColumnPropNameInTable="IskontaColumn" msprop:Generator_UserColumnName="Iskonta" type="xs:float" minOccurs="0" />
+              <xs:element name="TeslimTarihi" msprop:Generator_ColumnVarNameInTable="columnTeslimTarihi" msprop:Generator_ColumnPropNameInRow="TeslimTarihi" msprop:Generator_ColumnPropNameInTable="TeslimTarihiColumn" msprop:Generator_UserColumnName="TeslimTarihi" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Alındı" msprop:Generator_ColumnVarNameInTable="columnAlındı" msprop:Generator_ColumnPropNameInRow="Alındı" msprop:Generator_ColumnPropNameInTable="AlındıColumn" msprop:Generator_UserColumnName="Alındı" type="xs:int" minOccurs="0" />
+              <xs:element name="ParaAlınmaTarihi" msprop:Generator_ColumnVarNameInTable="columnParaAlınmaTarihi" msprop:Generator_ColumnPropNameInRow="ParaAlınmaTarihi" msprop:Generator_ColumnPropNameInTable="ParaAlınmaTarihiColumn" msprop:Generator_UserColumnName="ParaAlınmaTarihi" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
