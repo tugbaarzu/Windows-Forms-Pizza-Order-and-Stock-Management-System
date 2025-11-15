@@ -39,7 +39,7 @@
 6-) Teknik Detaylar
 -Platform: Windows Forms (.NET Framework 4.5.2)
 -Veritabanı: SQL Server (GeceP3)
--Bağlantı: Uzak SQL Server (79.123.228.28:5501)
+-Bağlantı: Uzak SQL Server 
 -Güvenlik: MD5 hash ile şifreleme
 -Veri Erişimi: Stored procedure ve doğrudan SQL sorguları
 -Dataset: 9 adet DataSet (GeceP3DataSet - GeceP3DataSet9)
