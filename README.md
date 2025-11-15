@@ -49,3 +49,6 @@
 -Pizza menü görselleri (5-6 adet)<br>
 -Ek ürün görselleri (5 adet)<br>
 -İçecek görselleri (3 adet)<br>
+
+<img width="819" height="440" alt="image" src="https://github.com/user-attachments/assets/cea9e321-9b65-4585-ba65-a3cf0e32bf86" />
+
